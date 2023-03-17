@@ -37,7 +37,55 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+Developed By: Ashwin Raaj.S
+Register Number: 212221230008
+```
+## Rotate Along X-Axis
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class updown : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.up, Vector3.right, 90 * Time.deltaTime);
+    }
+}
+```
+## Rotate Along Y-Axis
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class name : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.down, 90*Time.deltaTime);
+    }
+}
+```
 ## Output:
+![output](ss1.jpg)
 
 ## Result:
+
+Thus a 3D application for rotating the gaming objects in unity is developed successfully.
